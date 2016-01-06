@@ -1,0 +1,292 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'hexo' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'hexo', null ]
+6 verbose cache add name=undefined spec="hexo" args=["hexo",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'hexo',
+7 verbose parsed url   path: 'hexo',
+7 verbose parsed url   href: 'hexo' }
+8 silly lockFile 3f1a2efe-hexo hexo
+9 verbose lock hexo /home/wendale/.npm/3f1a2efe-hexo.lock
+10 silly lockFile 3f1a2efe-hexo hexo
+11 silly lockFile 3f1a2efe-hexo hexo
+12 verbose addNamed [ 'hexo', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile c225e5a0-hexo hexo@
+15 verbose lock hexo@ /home/wendale/.npm/c225e5a0-hexo.lock
+16 silly addNameRange { name: 'hexo', range: '*', hasData: false }
+17 verbose request where is /hexo
+18 verbose request registry http://registry.cnpmjs.org/
+19 verbose request id c7ab70eda8ea068c
+20 verbose url raw /hexo
+21 verbose url resolving [ 'http://registry.cnpmjs.org/', './hexo' ]
+22 verbose url resolved http://registry.cnpmjs.org/hexo
+23 verbose request where is http://registry.cnpmjs.org/hexo
+24 info trying registry request attempt 1 at 11:09:24
+25 http GET http://registry.cnpmjs.org/hexo
+26 http 200 http://registry.cnpmjs.org/hexo
+27 silly registry.get cb [ 200,
+27 silly registry.get   { server: 'nginx/1.4.6 (Ubuntu)',
+27 silly registry.get     date: 'Mon, 26 Oct 2015 03:09:24 GMT',
+27 silly registry.get     'content-type': 'application/json; charset=utf-8',
+27 silly registry.get     'content-length': '166899',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     etag: '"28bf3-cuWhCGK8r+ljaP00v+2Ugg"',
+27 silly registry.get     'x-readtime': '30' } ]
+28 silly addNameRange number 2 { name: 'hexo', range: '*', hasData: true }
+29 silly addNameRange versions [ 'hexo',
+29 silly addNameRange   [ '3.1.1',
+29 silly addNameRange     '3.1.0',
+29 silly addNameRange     '3.0.1',
+29 silly addNameRange     '3.0.0',
+29 silly addNameRange     '3.0.0-rc.4',
+29 silly addNameRange     '3.0.0-rc.3',
+29 silly addNameRange     '3.0.0-rc.2',
+29 silly addNameRange     '3.0.0-rc.1',
+29 silly addNameRange     '3.0.0-beta.4',
+29 silly addNameRange     '3.0.0-beta.1',
+29 silly addNameRange     '3.0.0-beta.3',
+29 silly addNameRange     '3.0.0-beta.2',
+29 silly addNameRange     '2.8.3',
+29 silly addNameRange     '2.8.2',
+29 silly addNameRange     '2.8.1',
+29 silly addNameRange     '2.8.0',
+29 silly addNameRange     '2.7.1',
+29 silly addNameRange     '2.7.0',
+29 silly addNameRange     '2.6.3',
+29 silly addNameRange     '2.6.2',
+29 silly addNameRange     '2.6.1',
+29 silly addNameRange     '2.6.0',
+29 silly addNameRange     '2.5.7',
+29 silly addNameRange     '2.5.6',
+29 silly addNameRange     '2.5.5',
+29 silly addNameRange     '2.5.4',
+29 silly addNameRange     '2.5.3',
+29 silly addNameRange     '2.5.2',
+29 silly addNameRange     '2.5.1',
+29 silly addNameRange     '2.4.5',
+29 silly addNameRange     '2.4.4',
+29 silly addNameRange     '2.4.3',
+29 silly addNameRange     '2.4.2',
+29 silly addNameRange     '2.4.1',
+29 silly addNameRange     '2.4.0',
+29 silly addNameRange     '2.3.0',
+29 silly addNameRange     '2.2.1',
+29 silly addNameRange     '2.2.0',
+29 silly addNameRange     '2.1.1',
+29 silly addNameRange     '2.1.0',
+29 silly addNameRange     '2.0.7',
+29 silly addNameRange     '2.0.6',
+29 silly addNameRange     '2.0.5',
+29 silly addNameRange     '2.0.4',
+29 silly addNameRange     '2.0.3',
+29 silly addNameRange     '2.0.2',
+29 silly addNameRange     '2.0.1',
+29 silly addNameRange     '2.0.0',
+29 silly addNameRange     '2.0.0-rc3',
+29 silly addNameRange     '2.0.0-rc2',
+29 silly addNameRange     '2.0.0-rc1',
+29 silly addNameRange     '2.0.0-beta2',
+29 silly addNameRange     '2.0.0-beta1',
+29 silly addNameRange     '1.2.4',
+29 silly addNameRange     '1.2.3',
+29 silly addNameRange     '1.2.2',
+29 silly addNameRange     '1.2.1',
+29 silly addNameRange     '1.2.0',
+29 silly addNameRange     '1.1.4',
+29 silly addNameRange     '1.1.3',
+29 silly addNameRange     '1.1.2',
+29 silly addNameRange     '1.1.1',
+29 silly addNameRange     '1.1.0',
+29 silly addNameRange     '1.0.9',
+29 silly addNameRange     '1.0.8',
+29 silly addNameRange     '1.0.7',
+29 silly addNameRange     '1.0.6',
+29 silly addNameRange     '1.0.5',
+29 silly addNameRange     '1.0.4',
+29 silly addNameRange     '1.0.3',
+29 silly addNameRange     '1.0.2',
+29 silly addNameRange     '1.0.1',
+29 silly addNameRange     '1.0.0',
+29 silly addNameRange     '0.5.12',
+29 silly addNameRange     '0.5.11',
+29 silly addNameRange     '0.5.10',
+29 silly addNameRange     '0.5.9',
+29 silly addNameRange     '0.5.8',
+29 silly addNameRange     '0.5.7',
+29 silly addNameRange     '0.5.6',
+29 silly addNameRange     '0.5.5',
+29 silly addNameRange     '0.5.4',
+29 silly addNameRange     '0.5.3',
+29 silly addNameRange     '0.5.2',
+29 silly addNameRange     '0.5.1',
+29 silly addNameRange     '0.5.0',
+29 silly addNameRange     '0.4.5',
+29 silly addNameRange     '0.4.4',
+29 silly addNameRange     '0.4.3',
+29 silly addNameRange     '0.4.2',
+29 silly addNameRange     '0.4.1',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.3.2',
+29 silly addNameRange     '0.3.1',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.2.1',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.1.11',
+29 silly addNameRange     '0.1.10',
+29 silly addNameRange     '0.1.9',
+29 silly addNameRange     '0.1.8',
+29 silly addNameRange     '0.1.7',
+29 silly addNameRange     '0.1.6',
+29 silly addNameRange     '0.1.5',
+29 silly addNameRange     '0.1.4',
+29 silly addNameRange     '0.1.3',
+29 silly addNameRange     '0.1.2',
+29 silly addNameRange     '0.1.1',
+29 silly addNameRange     '0.1.0',
+29 silly addNameRange     '0.0.6',
+29 silly addNameRange     '0.0.5',
+29 silly addNameRange     '0.0.4',
+29 silly addNameRange     '0.0.3',
+29 silly addNameRange     '0.0.2',
+29 silly addNameRange     '0.0.1' ] ]
+30 verbose addNamed [ 'hexo', '3.1.1' ]
+31 verbose addNamed [ '3.1.1', '3.1.1' ]
+32 silly lockFile f4b140b4-hexo-3-1-1 hexo@3.1.1
+33 verbose lock hexo@3.1.1 /home/wendale/.npm/f4b140b4-hexo-3-1-1.lock
+34 silly lockFile b380e343-org-hexo-download-hexo-3-1-1-tgz http://registry.cnpmjs.org/hexo/download/hexo-3.1.1.tgz
+35 verbose lock http://registry.cnpmjs.org/hexo/download/hexo-3.1.1.tgz /home/wendale/.npm/b380e343-org-hexo-download-hexo-3-1-1-tgz.lock
+36 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/hexo/download/hexo-3.1.1.tgz',
+36 verbose addRemoteTarball   '87bf35c65141e4b8af5f1727c3d0a7100e64ece3' ]
+37 info retry fetch attempt 1 at 11:09:25
+38 verbose fetch to= /tmp/npm-9555-FnYQ_6p0/registry.cnpmjs.org/hexo/download/hexo-3.1.1.tgz
+39 http GET http://registry.cnpmjs.org/hexo/download/hexo-3.1.1.tgz
+40 http 200 http://registry.cnpmjs.org/hexo/download/hexo-3.1.1.tgz
+41 silly lockFile b380e343-org-hexo-download-hexo-3-1-1-tgz http://registry.cnpmjs.org/hexo/download/hexo-3.1.1.tgz
+42 silly lockFile b380e343-org-hexo-download-hexo-3-1-1-tgz http://registry.cnpmjs.org/hexo/download/hexo-3.1.1.tgz
+43 silly lockFile f4b140b4-hexo-3-1-1 hexo@3.1.1
+44 silly lockFile f4b140b4-hexo-3-1-1 hexo@3.1.1
+45 silly lockFile c225e5a0-hexo hexo@
+46 silly lockFile c225e5a0-hexo hexo@
+47 silly resolved [ { name: 'hexo',
+47 silly resolved     version: '3.1.1',
+47 silly resolved     description: 'A fast, simple & powerful blog framework, powered by Node.js.',
+47 silly resolved     main: 'lib/hexo',
+47 silly resolved     bin: { hexo: './bin/hexo' },
+47 silly resolved     scripts: { test: 'gulp test' },
+47 silly resolved     directories: { lib: './lib', bin: './bin' },
+47 silly resolved     engines: { node: '>= 0.10.0' },
+47 silly resolved     repository: { type: 'git', url: 'https://github.com/hexojs/hexo' },
+47 silly resolved     homepage: 'http://hexo.io/',
+47 silly resolved     keywords: [ 'website', 'blog', 'cms', 'framework', 'hexo' ],
+47 silly resolved     author:
+47 silly resolved      { name: 'Tommy Chen',
+47 silly resolved        email: 'tommy351@gmail.com',
+47 silly resolved        url: 'http://zespia.tw' },
+47 silly resolved     license: 'MIT',
+47 silly resolved     dependencies:
+47 silly resolved      { abbrev: '^1.0.5',
+47 silly resolved        archy: '^1.0.0',
+47 silly resolved        bluebird: '^2.9.8',
+47 silly resolved        bunyan: '^1.3.3',
+47 silly resolved        chalk: '^1.0.0',
+47 silly resolved        cheerio: '^0.19.0',
+47 silly resolved        'hexo-cli': '^0.1.6',
+47 silly resolved        'hexo-front-matter': '^0.2.1',
+47 silly resolved        'hexo-fs': '^0.1.3',
+47 silly resolved        'hexo-i18n': '^0.2.1',
+47 silly resolved        'hexo-util': '^0.1.7',
+47 silly resolved        'js-yaml': '^3.2.5',
+47 silly resolved        lodash: '^3.2.0',
+47 silly resolved        minimatch: '^2.0.1',
+47 silly resolved        moment: '~2.10.3',
+47 silly resolved        'moment-timezone': '^0.3.0',
+47 silly resolved        nunjucks: '^1.3.3',
+47 silly resolved        'pretty-hrtime': '^1.0.0',
+47 silly resolved        'strip-indent': '^1.0.0',
+47 silly resolved        swig: '1.4.2',
+47 silly resolved        'swig-extras': '0.0.1',
+47 silly resolved        'text-table': '^0.2.0',
+47 silly resolved        through2: '^1.1.1',
+47 silly resolved        tildify: '^1.0.0',
+47 silly resolved        titlecase: '^1.0.2',
+47 silly resolved        warehouse: '^1.0.2' },
+47 silly resolved     devDependencies:
+47 silly resolved      { chai: '^2.2.0',
+47 silly resolved        coveralls: '^2.11.2',
+47 silly resolved        del: '^1.1.1',
+47 silly resolved        gulp: '^3.8.9',
+47 silly resolved        'gulp-istanbul': '^0.9.0',
+47 silly resolved        'gulp-jshint': '^1.8.6',
+47 silly resolved        'gulp-load-plugins': '^0.10.0',
+47 silly resolved        'gulp-mocha': '^2.0.0',
+47 silly resolved        'hexo-renderer-marked': '^0.2.3',
+47 silly resolved        'jshint-stylish': '^1.0.0',
+47 silly resolved        mocha: '^2.0.1',
+47 silly resolved        sinon: '^1.12.2' },
+47 silly resolved     gitHead: 'c8a503dc57f4cb14c7e8eebcbe0cd2087e4bb21e',
+47 silly resolved     bugs: { url: 'https://github.com/hexojs/hexo/issues' },
+47 silly resolved     _id: 'hexo@3.1.1',
+47 silly resolved     _shasum: '87bf35c65141e4b8af5f1727c3d0a7100e64ece3',
+47 silly resolved     _from: 'hexo@',
+47 silly resolved     _npmVersion: '2.5.1',
+47 silly resolved     _nodeVersion: '0.12.0',
+47 silly resolved     _npmUser: { name: 'tommy351', email: 'tommy351@gmail.com' },
+47 silly resolved     maintainers: [ [Object] ],
+47 silly resolved     dist:
+47 silly resolved      { shasum: '87bf35c65141e4b8af5f1727c3d0a7100e64ece3',
+47 silly resolved        size: 51645,
+47 silly resolved        noattachment: false,
+47 silly resolved        tarball: 'http://registry.cnpmjs.org/hexo/download/hexo-3.1.1.tgz' },
+47 silly resolved     publish_time: 1432120638368,
+47 silly resolved     _cnpm_publish_time: 1432120638368,
+47 silly resolved     _resolved: 'http://registry.cnpmjs.org/hexo/download/hexo-3.1.1.tgz' } ]
+48 info install hexo@3.1.1 into /usr/lib
+49 info installOne hexo@3.1.1
+50 verbose lib/node_modules/hexo unbuild
+51 verbose tar unpack /home/wendale/.npm/hexo/3.1.1/package.tgz
+52 silly lockFile 58f03daa-tar-usr-lib-node-modules-hexo tar:///usr/lib/node_modules/hexo
+53 verbose lock tar:///usr/lib/node_modules/hexo /home/wendale/.npm/58f03daa-tar-usr-lib-node-modules-hexo.lock
+54 silly lockFile bbcc8b11-ndale-npm-hexo-3-1-1-package-tgz tar:///home/wendale/.npm/hexo/3.1.1/package.tgz
+55 verbose lock tar:///home/wendale/.npm/hexo/3.1.1/package.tgz /home/wendale/.npm/bbcc8b11-ndale-npm-hexo-3-1-1-package-tgz.lock
+56 silly gunzTarPerm modes [ '775', '664' ]
+57 error Error: EACCES, mkdir '/usr/lib/node_modules/hexo'
+57 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/hexo']
+57 error   errno: 3,
+57 error   code: 'EACCES',
+57 error   path: '/usr/lib/node_modules/hexo',
+57 error   fstream_type: 'Directory',
+57 error   fstream_path: '/usr/lib/node_modules/hexo',
+57 error   fstream_class: 'DirWriter',
+57 error   fstream_stack:
+57 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+57 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+57 error      'Object.oncomplete (fs.js:108:15)' ] }
+58 error Please try running this command again as root/Administrator.
+59 error System Linux 3.13.0-66-generic
+60 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "hexo"
+61 error cwd /home/wendale/blog
+62 error node -v v0.10.37
+63 error npm -v 1.4.28
+64 error path /usr/lib/node_modules/hexo
+65 error fstream_path /usr/lib/node_modules/hexo
+66 error fstream_type Directory
+67 error fstream_class DirWriter
+68 error code EACCES
+69 error errno 3
+70 error stack Error: EACCES, mkdir '/usr/lib/node_modules/hexo'
+71 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+71 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+71 error fstream_stack Object.oncomplete (fs.js:108:15)
+72 verbose exit [ 3, true ]
