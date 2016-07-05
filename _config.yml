@@ -70,8 +70,8 @@ theme: jacman
 deploy:
   type: git
   repo: 
-    #github: git@github.com:wenjunyang/wenjunyang.github.io.git,master
-    gitcafe: git@gitcafe.com:wendale321/wendale321.git,gitcafe-pages
+    github: git@github.com:wenjunyang/wenjunyang.github.io.git,master
+    #gitcafe: git@gitcafe.com:wendale321/wendale321.git,gitcafe-pages
 # Extensions
 Plugins:
 - hexo-generator-feed
